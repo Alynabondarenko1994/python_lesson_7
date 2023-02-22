@@ -17,7 +17,7 @@
 
 def checking_vowel(phrase):
     sum=0
-    alph=set('АЕЁИЙОУЪЫЬЭЮ')
+    alph=set('АЕЁИЙОУЫЭЮ')
     for j in range(len(phrase)):
         if phrase[j] in alph: 
             sum+=1   
